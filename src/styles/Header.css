@@ -1,0 +1,40 @@
+/* src/styles/Header.css */
+.header {
+    background-color: #97ce4c;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0 0 1rem;
+    font-size: 2rem;
+  }
+  
+  .difficulty-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .difficulty-selector select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  @media (min-width: 768px) {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .header h1 {
+      margin: 0;
+    }
+  }
